@@ -1,0 +1,18 @@
+{
+  "baseline": {
+    "avg_response_time_ms": 28927.320849895477,
+    "p95_response_time_ms": 30913.49662542343,
+    "throughput_req_per_sec": 0.6514939028458139,
+    "error_count": 0,
+    "total_requests": 80,
+    "error_rate_percent": 0.0
+  },
+  "with_ml": {
+    "avg_response_time_ms": 28478.166875243187,
+    "p95_response_time_ms": 30215.00120162964,
+    "throughput_req_per_sec": 0.6588178233604572,
+    "error_count": 0,
+    "total_requests": 80,
+    "error_rate_percent": 0.0
+  }
+}
