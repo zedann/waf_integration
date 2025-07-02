@@ -266,3 +266,25 @@
 2025-06-27 18:56:47,454 - INFO - SQL/XSS prediction: 0.003, threshold: 0.5, blocked: False
 2025-06-27 18:56:47,506 - INFO - DDoS prediction: 1.000, threshold: 0.5, blocked: True
 2025-06-27 18:56:47,559 - INFO - SQL/XSS prediction: 0.003, threshold: 0.5, blocked: False
+2025-07-03 01:42:28,188 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-03 01:42:28,194 - INFO - DDoS model loaded from ./ddosattack.h5
+2025-07-03 01:42:28,237 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-03 01:42:28,240 - INFO - SQL/XSS model loaded from ./sql_xss_model.h5
+2025-07-03 01:42:28,240 - INFO - Models loaded in 0.342 seconds
+2025-07-03 01:42:28,562 - INFO - DDoS prediction: 1.000, threshold: 0.5, blocked: True
+2025-07-03 01:42:28,713 - INFO - SQL/XSS prediction: 0.003, threshold: 0.5, blocked: False
+2025-07-03 01:42:28,764 - INFO - DDoS prediction: 0.998, threshold: 0.5, blocked: True
+2025-07-03 01:42:28,816 - INFO - SQL/XSS prediction: 0.003, threshold: 0.5, blocked: False
+2025-07-03 01:42:28,867 - INFO - DDoS prediction: 1.000, threshold: 0.5, blocked: True
+2025-07-03 01:42:28,916 - INFO - SQL/XSS prediction: 0.003, threshold: 0.5, blocked: False
+2025-07-03 01:43:12,079 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-03 01:43:12,084 - INFO - DDoS model loaded from ./ddosattack.h5
+2025-07-03 01:43:12,125 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-03 01:43:12,127 - INFO - SQL/XSS model loaded from ./sql_xss_model.h5
+2025-07-03 01:43:12,128 - INFO - Models loaded in 0.331 seconds
+2025-07-03 01:43:12,328 - INFO - DDoS prediction: 1.000, threshold: 0.5, blocked: True
+2025-07-03 01:43:12,482 - INFO - SQL/XSS prediction: 0.003, threshold: 0.5, blocked: False
+2025-07-03 01:43:12,533 - INFO - DDoS prediction: 0.998, threshold: 0.5, blocked: True
+2025-07-03 01:43:12,584 - INFO - SQL/XSS prediction: 0.003, threshold: 0.5, blocked: False
+2025-07-03 01:43:12,636 - INFO - DDoS prediction: 1.000, threshold: 0.5, blocked: True
+2025-07-03 01:43:12,688 - INFO - SQL/XSS prediction: 0.003, threshold: 0.5, blocked: False

@@ -75,6 +75,7 @@ python3 performance_test.py --test both --duration 120 --concurrent 20
 # Run individual tests
 python3 performance_test.py --test baseline --duration 60  # Without ML
 python3 performance_test.py --test ml --duration 60        # With ML
+sudo sed -i '1s|#!/usr/bin/env python3|#!/home/{{name}}/waf_integration/ml_env/bin/python3|' /opt/ml/waf_ml_integration.py
 ```
 
 ### Expected Performance Impact
