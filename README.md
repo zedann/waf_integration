@@ -76,6 +76,8 @@ python3 performance_test.py --test both --duration 120 --concurrent 20
 python3 performance_test.py --test baseline --duration 60  # Without ML
 python3 performance_test.py --test ml --duration 60        # With ML
 sudo sed -i '1s|#!/usr/bin/env python3|#!/home/{{name}}/waf_integration/ml_env/bin/python3|' /opt/ml/waf_ml_integration.py
+pip install tensorflow>=2.16.0 numpy>=2.1.0 keras>=3.5.0 h5py>=3.11.0
+
 ```
 
 ### Expected Performance Impact
