@@ -97,7 +97,6 @@ class WAFMLDetector:
             request_data.get('content_length', 0),
             len(request_data.get('headers', {})),
             request_data.get('connection_count', 1),
-            # Add 25 more features to make 30 total
             *[0.5] * 25
         ]
         return features[:30]  # Ensure exactly 30 features
